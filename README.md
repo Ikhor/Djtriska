@@ -1,7 +1,8 @@
 # Djtriska Implementation in C++
-* Developed during college using a heap implementation running in {\displaystyle O(|E|+|V|\log |V|)} O(|E|+|V|\log |V|)
+* Developed during college using a heap implementation running in O(|E|+|V|\log |V|)
 
-#Algorithm
+# Algorithm
+
 Let the node at which we are starting be called the initial node. Let the distance of node Y be the distance from the initial node to Y. Dijkstra's algorithm will assign some initial distance values and will try to improve them step by step.
 
 Mark all nodes unvisited. Create a set of all the unvisited nodes called the unvisited set.
